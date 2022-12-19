@@ -1,2 +1,58 @@
 
 /* Your CSS Code here. */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    overflow: hidden;
+}
+.parent{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,105,121,0.9783263647255778) 11%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    border: none;
+  color: Black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.child{
+    text-align: center;
+    padding: 5rem;
+}
+.showData{
+    background-color: black;
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    
+}
+h2{
+    text-align: center;
+}
+.showPicName{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
